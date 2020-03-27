@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prova Técnica Aiko - Maps View</title>
+  </head>
+  <body>
+    <div id="map-wrapper">
+      <div id="map"></div>
+    </div>
+
+    <div id="coordinates-wrapper" class="col-lg-4 col-md-6 col-sm-12">
+      <div id="coordinates-cards">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">@-19.9513896,-44.2004929,15z</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-sm btn-primary">Editar</a> &nbsp; <a href="#" class="btn btn-sm btn-danger">Remover</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">@-19.9513896,-44.2004929,15z</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-sm btn-primary">Editar</a> &nbsp; <a href="#" class="btn btn-sm btn-danger">Remover</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">@-19.9513896,-44.2004929,15z</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-sm btn-primary">Editar</a> &nbsp; <a href="#" class="btn btn-sm btn-danger">Remover</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">@-19.9513896,-44.2004929,15z</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-sm btn-primary">Editar</a> &nbsp; <a href="#" class="btn btn-sm btn-danger">Remover</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title font-weight-bold">@-19.9513896,-44.2004929,15z</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-sm btn-primary">Editar</a> &nbsp; <a href="#" class="btn btn-sm btn-danger">Remover</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <form [formGroup]="form" (ngSubmit)="onSubmit()">
+            <label class="sr-only" for="coordinates">Coordenadas</label>
+            <input type="text" class="form-control mb-2 mr-sm-2" id="coordinates" placeholder="Coordenadas">
+
+            <label class="sr-only" for="description">Descrição</label>
+            <input type="text" class="form-control mb-2 mr-sm-2" id="description" placeholder="Descrição">
+
+            <button type="button" class="btn btn-primary mb-2">Cadastrar</button>
+            <button type="button" class="btn btn mb-2">Novo cadastro</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
